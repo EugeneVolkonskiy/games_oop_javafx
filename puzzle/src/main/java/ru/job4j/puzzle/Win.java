@@ -11,6 +11,7 @@ public class Win {
         }
         return result;
     }
+
     public static boolean monoHorizontal(int[][] board, int row) {
         boolean result = true;
         for (int j = 0; j < board[row].length; j++) {
@@ -21,6 +22,7 @@ public class Win {
         }
         return result;
     }
+
     public static boolean monoVertical(int[][] board, int column) {
         boolean result = true;
         for (int[] ints : board) {
